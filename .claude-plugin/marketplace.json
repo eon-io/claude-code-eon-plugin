@@ -1,0 +1,18 @@
+{
+  "name": "eon-service",
+  "owner": {
+    "name": "Eon",
+    "url": "https://eon.io"
+  },
+  "plugins": [
+    {
+      "name": "eon",
+      "description": "Eon MCP server — exposes the Eon AI agent tools and skills for multi-cloud backup, recovery, inventory, and onboarding.",
+      "source": {
+        "source": "github",
+        "repo": "eon-io/claude-code-eon-plugin"
+      },
+      "homepage": "https://eon.io"
+    }
+  ]
+}
