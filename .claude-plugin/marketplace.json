@@ -1,6 +1,8 @@
 {
   "name": "eon-service",
-  "description": "Eon plugin marketplace — MCP server and skills for multi-cloud backup, recovery, and inventory management.",
+  "metadata": {
+    "description": "Eon plugin marketplace — MCP server and skills for multi-cloud backup, recovery, and inventory management."
+  },
   "owner": {
     "name": "Eon",
     "url": "https://eon.io"
