@@ -1,5 +1,5 @@
 {
-  "name": "eon-service",
+  "name": "eon",
   "metadata": {
     "description": "Eon plugin marketplace — MCP server and skills for multi-cloud backup, recovery, and inventory management."
   },
