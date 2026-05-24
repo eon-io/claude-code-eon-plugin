@@ -41,3 +41,7 @@ Run `/reload-plugins` inside Claude Code after making local edits.
 
 - [Eon Platform](https://eon.io)
 - [Documentation](https://docs.eon.io)
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE) for attribution and the scope of the license — the Eon service, API, and trademarks are not covered.
