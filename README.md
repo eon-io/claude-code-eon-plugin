@@ -9,6 +9,7 @@ Connect Claude Code to Eon via this plugin. Bundles the Eon MCP server and guide
 - **AWS onboarding skill** — step-by-step guided workflow to connect AWS source accounts via the Eon CloudFormation template.
 - **Backup policy creation skill** — guided wizard for creating backup policies: pick a policy type, define the resource selector, configure schedules with vaults and retention.
 - **Cost explorer query skill** — answer cloud-resource consumption questions: GB/month or USD/credits per account, project, or department across EC2, RDS, S3, Azure, and GCP storage, with per-month or per-resource breakdowns.
+- **Ransomware remediation skill** — investigate ransomware, malware, and data-anomaly findings on Eon-protected resources and restore affected resources to their last verified-clean recovery point.
 
 ## Installation
 
@@ -26,6 +27,7 @@ Run inside Claude Code:
 | AWS Onboarding | `/eon:aws-onboarding` | Guide users through connecting AWS source accounts: deploy the Eon CloudFormation stack, register the role ARN, run discovery. |
 | Backup Policy Creation | `/eon:backup-policy-creation` | Guide users through creating a backup policy: type, resource selector, schedules with vaults + retention. |
 | Cost Explorer Query | `/eon:cost-explorer-query` | Answer cloud consumption and cost questions across EC2, RDS, S3, Azure, and GCP storage with per-month or per-resource breakdowns. |
+| Ransomware Remediation | `/eon:ransomware-remediation` | Investigate ransomware, malware, and data-anomaly detections, build a per-resource incident report, and run a confirmed bulk restore from the latest clean snapshots. |
 
 ## MCP Server
 
